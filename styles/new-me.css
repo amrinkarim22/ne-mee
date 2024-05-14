@@ -4,9 +4,6 @@ body{
       font-family: "Work Sans", sans-serif;;
 }
 
-
-
-
 /* header related styles */
 .header{
     background-image: url('../images/banner/banner3.png'), url('../images/gradient1.png');
@@ -21,7 +18,7 @@ body{
     text-align: right;
     margin-right: 50px;
     margin-top: 0px;
-    padding-top: 100px;
+    padding-top: 200px;
 }
 .header-description{
     font-size: 16px;
@@ -42,10 +39,46 @@ body{
     border-radius: 5px;
     border: none;
     float: right;
-    margin-right: 50px;
-    
-  
+    margin-right: 50px; 
 }
 
+/* main body styles */
 
+main{
+    margin: 200px 200px;
+    width: 1072px;
+    height: 725px;
+    background-color: seashell
+}
+main li{
+    list-style: none;
+}
+
+.main-body-container{
+    display: flex;
+    gap: 40px;
+    justify-content: space-evenly;
+
+}
+
+.main-body-list{
+     padding-top: 300px ;
+     padding-right: 50px;
+     display:inline;
+}
+.list-heading{
+    font-size: 40px;
+    font-weight: 800;
+    color: #444343;
+    margin-bottom: 0px;
+}
+.list-description{
+    font-size: 16px;
+    color: #444343;
+}
+.failure-list{
+    padding-left: 0px;
+    font-size: 16px;
+    color: #444343;
+}
 
