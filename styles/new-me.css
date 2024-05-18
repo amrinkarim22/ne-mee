@@ -44,11 +44,12 @@ body{
 
 /* main body styles */
 
-main{
-    margin: 200px 200px;
+.main{
+    margin-left: 200px;
+    margin-right: 200px;
     width: 1072px;
     height: 725px;
-    background-color: seashell
+    background-color: seashell;
 }
 main li{
     list-style: none;
@@ -80,5 +81,83 @@ main li{
     padding-left: 0px;
     font-size: 16px;
     color: #444343;
+}
+
+.plan-heading{
+    font-size: 40px;
+    font-weight: 700px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.plan-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.course-name{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.course-description{
+    color: #444343;
+}
+
+
+.positive-mindset-container{
+    
+    background-image: linear-gradient(to right, rgba(2, 21, 129, 0.52), rgba(223, 221, 245, 0)),url('../images/watch.png');
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    width: 1050px;
+    height: 300px;
+}
+.mindset-header{
+    font-size: 40px;
+    font-weight: 800;
+    color: white;
+    padding-top: 70px;
+    padding-left: 50px;
+    margin-bottom: 10px;
+}
+.call-now{
+    font-size: 16px;
+    font-weight: 800;
+    color: #005FAC;
+    background-color: white;
+    width: 160px;
+    height: 65px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 50px ;
+    margin-bottom: 50px;
+}
+
+/* footer related styles */
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+.future-heading{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.heading-description{
+    font-size: 12px;
+    line-height: 26px;
+    margin-top: 0px;
+}
+
+.icon-container{
+    display: flex;
+}
+
+.subscribe{
+    font-size: 25px;
 }
 
