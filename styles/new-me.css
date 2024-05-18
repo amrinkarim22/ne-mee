@@ -9,6 +9,7 @@ body{
     background-image: url('../images/banner/banner3.png'), url('../images/gradient1.png');
     background-repeat: no-repeat;
     height: 808px;
+    margin-bottom: 50px;
    
 }
 .header-title{
@@ -136,28 +137,74 @@ main li{
 }
 
 /* footer related styles */
+.footer{
+    background-color: #151414;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 50px;
+}
+   
 
 .footer-container{
     display: flex;
     justify-content: space-between;
 }
+
+
 .future-heading{
     font-size: 45px;
     font-weight: 700;
     margin-bottom: 20px;
+    margin-top: 80px;
+    color: white;
 }
 
 .heading-description{
     font-size: 12px;
     line-height: 26px;
     margin-top: 0px;
+    color: white;
+}
+
+.gmail{
+    color: white;
+}
+.phone{
+    color: white;
+    margin-bottom: 30px;
 }
 
 .icon-container{
     display: flex;
+    gap: 15px;
 }
 
 .subscribe{
+    color: white;
     font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 90px;
 }
 
+.email input[type="email"] {
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+    padding: 18px 35px;
+    color: white;
+    border-radius: 5px;
+    background: #151414;
+    border-color: whitesmoke;
+    width: 70%;
+}
+
+.call-now-button{
+    font-size: 16px;
+    font-weight: 800;
+    color: white;
+    background-color: #005FAC;
+    width: 160px;
+    height: 55px;
+    border-radius: 5px;
+    border: none;
+}
